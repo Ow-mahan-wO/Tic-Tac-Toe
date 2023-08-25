@@ -1,4 +1,8 @@
-export interface UserChange { 
+
+ interface LocationUser{
+    id: number,
     User: string,
-    ClickLocaion:number
+    Target:boolean
 }
+
+export type{LocationUser}

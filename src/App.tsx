@@ -8,6 +8,7 @@ const App: React.FC = () => {
     <>
       <div className="flex justify-center items-center h-100v flex-col">
         <Tic_Tac_Toe />
+        
       </div>
     </>
   );

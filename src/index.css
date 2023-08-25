@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.w-10:hover{
+    animation:svgAnimate .5s ease-in-out  forwards;
+}
+@keyframes svgAnimate {
+    0%{
+        rotate: 0;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
