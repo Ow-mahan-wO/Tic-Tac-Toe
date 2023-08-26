@@ -7,11 +7,17 @@ export default {
   theme: {
     fontSize: {
       xl: '6rem',
-      md:'2rem'
+      md: '2rem',
+      sm:'1.3rem'
     },
     extend: {
+      height: {
+        '16': '5rem',
+        '17':'9rem'
+      },
       spacing: {
         '100v': '100vh',
+       
       }
     },
   },
